@@ -29,7 +29,7 @@ These files are designed to work with the companion script:
 ## Disclaimer
 This is a research-grade database. While extensive cleaning and filtering have been applied (imaginary frequency checks, spin contamination flags, etc.), users should always validate specific entries for critical applications.
 # Lab & Project Acknowledgments
-This dataset and workflow were developed as part of a PhD project in the Ng Group
- at the University of Pittsburgh, with computational resources provided by the Pitt CRC (Center for Research Computing)
+This dataset and workflow were developed as part of a PhD project in the Ng Group at the University of Pittsburgh.
+We acknowledge support from the National Institutes of Health (NIH) under grant number 5 R01 ES032717-04. This research was supported in part by the University of Pittsburgh Center for Research Computing and Data, RRID:SCR_022735, through the resources provided. Specifically, this work used the H2P cluster, which is supported by NSF award number OAC-2117681.
 # Citations
 If this database or associated script is useful to your research, please cite:
