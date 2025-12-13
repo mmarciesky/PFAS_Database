@@ -18,14 +18,14 @@ Bond dissociation enethalpies can be found manually or with the helper script be
 
 ```bash
 Data/
-│   ├── Neutral_Speed.csv # gas phase protonated
-│   └── Anion_Speed.csv # gas phase deprotonated
+│   ├── Neutral_Speed.csv # gas phase protonated used in A Comprehensive Benchmark Database of Per-and Polyfluoroalkyl Substance Properties from Quantum Mechanical Methods
+│   └── Anion_Speed.csv # gas phase deprotonated used in A Comprehensive Benchmark Database of Per-and Polyfluoroalkyl Substance Properties from Quantum Mechanical Methods
 │   ├── Neutral_Water_Speed.csv
 │   └── Anion_Water_Speed.csv
 ```
 ## Usage
 These files are designed to work with the companion script:
-%% add link in later
+(https://github.com/mmarciesky/PFAS_BDE_helper)
 ## Disclaimer
 This is a research-grade database. While extensive cleaning and filtering have been applied (imaginary frequency checks, spin contamination flags, etc.), users should always validate specific entries for critical applications.
 # Lab & Project Acknowledgments
