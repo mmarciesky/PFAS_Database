@@ -9,7 +9,8 @@ Properties include:
 - Electron affinity (vertical and adiabatic)
 - Ionization potential (vertical and adiabatic)
 - Enthalpy corrections using the quasi-rigid-rotor-harmonic oscillator (quasi-RRHO) approximation
-- Entropy energies (raw from ORCA/Gaussian output files)
+- Entropy (raw from ORCA/Gaussian output files)
+- Gibbs Free Energy (raw from ORCA/Gaussian output files)
 - Bond dissociation enthalpies
 Bond dissociation enethalpies can be found manually or with the helper script below. 
 
