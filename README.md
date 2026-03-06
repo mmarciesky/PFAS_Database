@@ -14,6 +14,7 @@ Properties include:
 - **Gibbs Free Energy (Hartree)
   
 \* Please note that EA and IP adiabatic are calculated via electronic energry and ZPE in Neutral_BM and Anion_BM. All other releases they are calcualted from the full Gibbs Free Energy.
+
 \* \* The Entropy and Gibbs Free Energy in Neutral_BM and Anion_BM are taken from ORCA/Gaussian outputs. All otehr releases they are calcualted using the vibrqational frequencies quasi-Rigid Rotor Harmonic Oscillator.
 
 ---
