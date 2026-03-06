@@ -5,12 +5,14 @@ The data is organized by **gas-phase and water-phase**, and includes both **prot
 Please note that all properties are reported in Hartree.
 Properties include:
 - Dipole moments (Debye)
+- Homo-Lumo
+- Mulliken and Löwdin Charges
 - XYZ coordinates (Angstroms)
 - Vibrational frequencies
 - *Electron affinity (vertical and adiabatic) (Hartree)
 - *Ionization potential (vertical and adiabatic) (Hartree)
 - Enthalpy corrections using the quasi-rigid-rotor-harmonic oscillator (quasi-RRHO) approximation
-- **Entropy (raw from ORCA/Gaussian output files)
+- **Entropy (Hartree/K)
 - **Gibbs Free Energy (Hartree)
   
 \* Please note that EA and IP adiabatic are calculated via electronic energry and ZPE in Neutral_BM and Anion_BM. All other releases they are calcualted from the full Gibbs Free Energy.
