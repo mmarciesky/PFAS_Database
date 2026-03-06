@@ -1,18 +1,19 @@
 # PFAS Quantum Chemistry Benchmark Database
 
 This repository contains curated quantum chemistry datasets for benchmarking **bond dissociation energies (BDEs)** and related properties of per- and polyfluoroalkyl substances (PFAS). 
-The data is organized by **gas-phase and water-phase**, and includes both **protonated (neutral)** and **deprotonated (anion)** species across a wide range of computational methods. 
+The data is organized by **gas-phase and water-phase**, and includes both **protonated (neutral)** and **deprotonated (anion)** species across a wide range of computational methods.
+Please note that all properties are reported in Hartree.
 Properties include:
-- Dipole moments
-- XYZ coordinates
+- Dipole moments (Debye)
+- XYZ coordinates (Angstroms)
 - Vibrational frequencies
-- Electron affinity (vertical and adiabatic)
-- Ionization potential (vertical and adiabatic)
+- *Electron affinity (vertical and adiabatic) (Hartree)
+- *Ionization potential (vertical and adiabatic) (Hartree)
 - Enthalpy corrections using the quasi-rigid-rotor-harmonic oscillator (quasi-RRHO) approximation
-- Entropy (raw from ORCA/Gaussian output files)
-- Gibbs Free Energy (raw from ORCA/Gaussian output files)
-- Bond dissociation enthalpies
-Bond dissociation enethalpies can be found manually or with the helper script below. 
+- **Entropy (raw from ORCA/Gaussian output files)
+- **Gibbs Free Energy (Hartree)
+* Please note that EA and IP adiabatic are calculated via electronic energry and ZPE in Neutral_BM and Anion_BM. All other releases they are calcualted from the full Gibbs Free Energy.
+* * The Entropy and Gibbs Free Energy in Neutral_BM and Anion_BM are taken from ORCA/Gaussian outputs. All otehr releases they are calcualted using the vibrqational frequencies quasi-Rigid Rotor Harmonic Oscillator.
 
 ---
 
@@ -20,13 +21,13 @@ Bond dissociation enethalpies can be found manually or with the helper script be
 
 ```bash
 Data/
-│   ├── Neutral_Speed.csv # gas phase protonated used in A Comprehensive Benchmark Database of Per-and Polyfluoroalkyl Substance Properties from Quantum Mechanical Methods
-│   └── Anion_Speed.csv # gas phase deprotonated used in A Comprehensive Benchmark Database of Per-and Polyfluoroalkyl Substance Properties from Quantum Mechanical Methods
-│   ├── Neutral_Water_Speed.csv
-│   └── Anion_Water_Speed.csv
+│   ├── Neutral_BM.csv # gas phase protonated used in A Comprehensive Benchmark Database of Per-and Polyfluoroalkyl Substance Properties from Quantum Mechanical Methods (benchmarking methods)
+│   └── Anion_BM.csv # gas phase deprotonated used in A Comprehensive Benchmark Database of Per-and Polyfluoroalkyl Substance Properties from Quantum Mechanical Methods (benchmarking methods)
+│   ├── Neutral_Water.csv # water phase neutral/neutral radical species used in 
+│   └── Anion_Water.csv # water phase anion/anion radical species used in 
 ```
 ## Usage
-These files are designed to work with the companion script:
+These Neutral_BM and Anion_BM files are designed to work with the companion script:
 (https://github.com/mmarciesky/PFAS_BDE_helper)
 ## Disclaimer
 This is a research-grade database. While extensive cleaning and filtering have been applied (imaginary frequency checks, spin contamination flags, etc.), users should always validate specific entries for critical applications.
