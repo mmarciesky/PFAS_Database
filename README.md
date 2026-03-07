@@ -28,7 +28,8 @@ Data/
 │   ├── Neutral_BM.csv # gas phase protonated used in A Comprehensive Benchmark Database of Per-and Polyfluoroalkyl Substance Properties from Quantum Mechanical Methods (benchmarking methods)
 │   └── Anion_BM.csv # gas phase deprotonated used in A Comprehensive Benchmark Database of Per-and Polyfluoroalkyl Substance Properties from Quantum Mechanical Methods (benchmarking methods)
 │   ├── Neutral_Water.csv # water phase neutral/neutral radical species used in 
-│   └── Anion_Water.csv # water phase anion/anion radical species used in 
+│   └── Anion_Water.csv # water phase anion/anion radical species used in
+|   └── Neutral_Gas.csv # gas phase neutral/neutral radical species used in 
 ```
 ## Usage
 These Neutral_BM and Anion_BM files are designed to work with the companion script:
