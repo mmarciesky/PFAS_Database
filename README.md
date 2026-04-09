@@ -34,27 +34,14 @@ Anion_BM.csv
 
 The validated dataset contains PFAS structures and fragments generated using the automated **fragmentation and conformer workflow** shown below.
 
-This dataset expands the chemical space beyond the benchmarking set and includes **neutral, radical, and anionic species across gas, water, DMSO, and 1-OCTANOL implicit solvents**.
+This dataset expands the chemical space beyond the benchmarking set and includes **neutral, radical, and anionic species across gas and  water**
+A much larger datbase with more PFAS families and solvents (DMSO and 1-OCTANOL) is coming Summer 2026.
 These datapotins are generated using this pipeline:
 <img width="2120" height="621" alt="image" src="https://github.com/user-attachments/assets/437ee5de-fc1e-43c2-ac7c-5098ba46d9fb" />
 
 Files:
 
-Neutral_Water.csv
-
-Anion_Water.csv
-
-Neutral_Gas.cv
-
-Anion_Gas.csv
-
-Neutral_DMSO.csv
-
-Anion_DMSO.csv
-
-Neutral_OCT.csv
-
-Anion_OCT.csv
+PFAS_QM
 
 # Reported Properties
 
