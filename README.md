@@ -4,7 +4,7 @@ This repository contains curated **quantum chemistry datasets for per- and polyf
 Two complementary datasets are provided:
 
 - **PFAS_BM** – a benchmarking dataset used to evaluate quantum mechanical methods.
-- **Validated PFAS Database** – a larger dataset generated using the automated workflow described below.
+- **PFAS_QM** – a larger dataset generated using the automated workflow described below. 
 
 The datasets include **bond dissociation energies (BDEs)** and related electronic and thermodynamic properties across multiple PFAS classes, protonation states, and phases.
 
@@ -30,7 +30,7 @@ Anion_BM.csv
 
 ---
 
-## 2. Validated PFAS Database
+## 2. Validated PFAS Database (PFAS_QM)
 
 The validated dataset contains PFAS structures and fragments generated using the automated **fragmentation and conformer workflow** shown below.
 
