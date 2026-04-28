@@ -42,7 +42,8 @@ These datapotins are generated using this pipeline:
 Files:
 
 PFAS_QM
-CONF_{solvent} : Conformer data from step 4. 
+
+CONF_{solvent} : Conformer data from step 4. EA is SMILES with additional electron, IP is SMILES with subtraction of electron
 
 # Reported Properties
 
