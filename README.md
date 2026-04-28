@@ -42,6 +42,7 @@ These datapotins are generated using this pipeline:
 Files:
 
 PFAS_QM
+CONF_{solvent} : Conformer data from step 4. 
 
 # Reported Properties
 
